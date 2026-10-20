@@ -1,0 +1,16 @@
+:root {
+  color-scheme: dark;
+
+  --bg: #13151a;
+  --panel: #1a1d24;
+  --line: #2a2f3a;
+  --text: #c8cfdb;
+  --dim: #7b8496;
+  --cyan: #7dcfff;
+  --amber: #e0af68;
+  --green: #9ece6a;
+  --pink: #bb9af7;
+  --red: #f7768e;
+
+  --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
