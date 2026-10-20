@@ -1,0 +1,23 @@
+.json {
+  margin: 0;
+  padding: 18px 20px;
+  overflow-x: auto;
+  font: inherit;
+  font-size: 14px;
+  line-height: 1.75;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+
+.json .k {
+  color: var(--pink);
+}
+
+.json .s {
+  color: var(--green);
+}
+
+.json .p {
+  color: var(--dim);
+}
