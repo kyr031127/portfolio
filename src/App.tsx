@@ -1,4 +1,5 @@
 import Header from './components/Header'
+import Hero from './components/Hero'
 import Section from './components/Section'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <Header />
       <main>
+        <Hero />
         <Section id="experience" command="git log --career">
           <p>Experience</p>
         </Section>
