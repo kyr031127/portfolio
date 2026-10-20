@@ -1,6 +1,6 @@
 import './Header.css'
 
-const links = ['experience', 'projects', 'skills', 'education', 'contact']
+const links = ['experience', 'projects', 'skills', 'education', 'contact', 'terminal']
 
 export default function Header() {
   return (

@@ -1,0 +1,51 @@
+.term {
+  min-height: 120px;
+  padding: 16px 20px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+
+.term-out div {
+  margin: 2px 0;
+  white-space: pre-wrap;
+}
+
+.term-out .echo {
+  color: var(--dim);
+}
+
+.term-out .echo::before {
+  content: '$ ';
+  color: var(--green);
+}
+
+.term-prompt {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.term-prompt b {
+  font-weight: 500;
+  color: var(--green);
+}
+
+.term-prompt input {
+  flex: 1;
+  min-width: 0;
+  padding: 0;
+  font: inherit;
+  color: #fff;
+  background: none;
+  border: 0;
+  outline: none;
+  caret-color: var(--green);
+}
+
+.term-hint {
+  margin: 12px 0 0;
+  font-size: 13px;
+  color: var(--dim);
+}
