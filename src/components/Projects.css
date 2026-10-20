@@ -1,0 +1,41 @@
+.proj {
+  margin: 0 0 28px;
+  padding: 2px 0 2px 20px;
+  border-left: 2px solid var(--line);
+}
+
+.proj:hover {
+  border-left-color: var(--cyan);
+}
+
+.proj h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.proj p {
+  margin: 6px 0 0;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 10px 0 0;
+}
+
+.tags span {
+  padding: 1px 8px;
+  font-size: 12px;
+  color: var(--cyan);
+  border: 1px solid var(--line);
+  border-radius: 3px;
+}
+
+.proj-links {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}

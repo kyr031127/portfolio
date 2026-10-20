@@ -1,7 +1,7 @@
 import Experience from './components/Experience'
 import Header from './components/Header'
 import Hero from './components/Hero'
-import Section from './components/Section'
+import Projects from './components/Projects'
 
 function App() {
   return (
@@ -10,9 +10,7 @@ function App() {
       <main>
         <Hero />
         <Experience />
-        <Section id="projects" command="ls projects/">
-          <p>Projects</p>
-        </Section>
+        <Projects />
       </main>
     </>
   )
