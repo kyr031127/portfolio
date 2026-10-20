@@ -1,0 +1,22 @@
+.edu {
+  padding: 18px 20px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+
+.edu p {
+  margin: 0 0 6px;
+}
+
+.edu p:last-child {
+  margin-bottom: 0;
+}
+
+.edu-degree {
+  color: #fff;
+}
+
+.edu-school {
+  color: var(--amber);
+}

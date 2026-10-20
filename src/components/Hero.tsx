@@ -23,6 +23,9 @@ export default function Hero() {
           <a className="btn" href={profile.linkedin} target="_blank" rel="noopener noreferrer">
             linkedin
           </a>
+          <a className="btn" href={profile.github} target="_blank" rel="noopener noreferrer">
+            github
+          </a>
         </div>
       </div>
     </section>
