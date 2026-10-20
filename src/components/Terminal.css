@@ -49,3 +49,9 @@
   font-size: 13px;
   color: var(--dim);
 }
+
+@media (max-width: 640px) {
+  .term-prompt input {
+    font-size: 16px;
+  }
+}

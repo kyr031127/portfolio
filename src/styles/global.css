@@ -47,6 +47,10 @@ main {
   body {
     font-size: 14px;
   }
+
+  main {
+    padding: 32px 16px 72px;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
