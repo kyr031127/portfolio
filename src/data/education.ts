@@ -3,5 +3,7 @@ export const education = {
   school: 'Monash University, Melbourne',
   period: 'Feb 2023 – May 2026',
   coursework:
-    'Java, Python and PHP programming, database management, full-stack development, data analytics, computer systems, networks and security. Worked in Agile teams using GitLab and Trello.',
+    'Programming in Python and Java, Databases Management, Full-Stack Development, Data Analytics, Computer Systems, Networks and Security.',
+  teamwork:
+    'Gained hands-on experience working in Agile teams using GitLab and Trello, building communication, problem-solving and teamwork skills through cross-functional project collaboration.',
 }

@@ -11,6 +11,7 @@ export default function Education() {
           {education.school}. {education.period}
         </p>
         <p>Coursework: {education.coursework}</p>
+        <p>{education.teamwork}</p>
       </div>
     </Section>
   )

@@ -11,6 +11,11 @@ export default function Experience() {
           <div>
             <h3>{job.title}</h3>
             <p className="job-org">{job.org}</p>
+              <div className="tags">
+              {job.stack.map((s) => (
+                  <span key={s}>{s}</span>
+              ))}
+            </div>
             <ul>
               {job.bullets.map((b) => (
                 <li key={b}>{b}</li>

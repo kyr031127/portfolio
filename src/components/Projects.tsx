@@ -7,7 +7,7 @@ export default function Projects() {
     <Section id="projects" command="ls projects/">
       {projects.map((p) => (
         <article key={p.name} className="proj">
-          <h3>{p.name}</h3>
+          <h3>{p.name} <span className="proj-kind">{p.kind}</span></h3>
           <p>{p.description}</p>
           <div className="tags">
             {p.stack.map((s) => (

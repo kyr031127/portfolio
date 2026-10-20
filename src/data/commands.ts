@@ -14,15 +14,15 @@ export const commands: Record<string, string> = {
   ].join('\n'),
 
   about:
-    'Yurae Kim, full-stack developer in Melbourne. Monash BIS graduate (May 2026) who likes turning messy business requirements into clean, working software.',
+    'Yurae Kim, full-stack developer in Melbourne. Monash BIS graduate (2026) who has built and deployed CakePHP and MySQL web applications for real hospitality clients.',
 
   projects: projects
     .map((p, i) => `${i + 1}. ${p.name} (${p.stack.slice(0, 3).join(', ')})`)
     .join('\n'),
 
   skills:
-    'Python, Java, JavaScript, TypeScript, PHP, SQL, Node.js, React, Express, MongoDB, Oracle SQL, Git, Linux',
-
+    'Python, Java, JavaScript, TypeScript, PHP (CakePHP), Node.js, Express, React, MySQL, MongoDB, Git, Linux',
+    
   contact: [
     profile.email,
     profile.linkedin.replace('https://', ''),
