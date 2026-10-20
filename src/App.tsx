@@ -1,3 +1,4 @@
+import Experience from './components/Experience'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Section from './components/Section'
@@ -8,9 +9,7 @@ function App() {
       <Header />
       <main>
         <Hero />
-        <Section id="experience" command="git log --career">
-          <p>Experience</p>
-        </Section>
+        <Experience />
         <Section id="projects" command="ls projects/">
           <p>Projects</p>
         </Section>
